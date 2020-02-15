@@ -1,5 +1,6 @@
 var frames;
 var board;
+var markedCells;
 var states;
 var pacman;
 var enemies;
@@ -42,6 +43,7 @@ async function draw() {
 
 function setBoard(){
 	board = new Board(BOARD_POS_X, BOARD_POS_Y, BOARD_ROWS, BOARD_COLS);
+	markedCells = [];
 }
 
 function setFrames(){

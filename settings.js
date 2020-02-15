@@ -39,7 +39,7 @@ const STATES_FONT_SIZE = 16;
 const STATES_FONT_FAMILY = 'Helvetica';
 
 /* Pacman Settings */
-const PACMAN_SPEED = 2;
+const PACMAN_SPEED = CELL_SIZE;
 const PACMAN_RADIUS = CELL_SIZE / 2;
 const LERP_UNIT = 0.2; // Linear Interpolation - Animation movement unit
 
